@@ -7,3 +7,4 @@ Pagina da BMW feita com TAILWIND
 ![Captura de tela de 2024-06-02 00-10-31](https://github.com/GabrielMbarbosa/bmwPage/assets/109046409/3dd2141c-2b09-40a5-a6f4-810f1712738a)
 ![Captura de tela de 2024-06-02 00-08-53](https://github.com/GabrielMbarbosa/bmwPage/assets/109046409/d52bfddc-f30b-46d8-82cb-b8a98967bc96)
 ![Captura de tela de 2024-06-02 00-09-06](https://github.com/GabrielMbarbosa/bmwPage/assets/109046409/08289923-18e6-4d92-a7c9-b78811144ad9)
+![Captura de tela de 2024-06-02 00-12-30](https://github.com/GabrielMbarbosa/bmwPage/assets/109046409/85b2e1e9-db6d-49cd-a4c9-d1d1c47e308a)
