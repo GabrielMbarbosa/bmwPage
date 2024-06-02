@@ -1,4 +1,4 @@
-# bmwPage
+# PaginaDaBMW
 Pagina da BMW feita com TAILWIND
 
 ![Captura de tela de 2024-06-02 00-08-17](https://github.com/GabrielMbarbosa/bmwPage/assets/109046409/427f079d-0ae2-467e-863e-eab35a38440a)
