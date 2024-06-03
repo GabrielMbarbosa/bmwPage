@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW/Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex flex-row-reverse">
+        <div>
+            <img class="h-screen me-56" src="../img/bmw_background.png" alt="">
+        </div>
+        <div class="text-gray-700 px-24 py-24">
+            <div class="flex flex-col justify-center items-center">
+                <div class="me-16">
+                    <p class="text-4xl border border-white w-80 font-light">INÍCIO DE SESSÃO BMW ID</p>
+                    <p class="font-light">Ainda não tem um BMW ID? Registre-se <a class="underline hover:no-underline" href="./registro.html">aqui.</a></p>
+                </div>
+                <div class="flex flex-col mt-9">
+                    <label class="font-light" for="email">BMW ID (endereço de e-mail)</label>
+                    <input class="w-96 h-12 border-2" type="email" name="email" id="email" required>
+                </div>
+                <div class="flex flex-col">
+                    <button class="bg-blue-300 border-2 mt-3 h-12 text-white w-96">Continuar</button>
+                    <a href="./registro.html"><button class="bg-white border-2 border-black mt-3 h-12 text-black w-96">Registrar</button></a>
+                </div>
+                <div class="mt-1 text-xs font-light">
+                    <p>Esta página usa hCaptcha. Para mais detalhes, consulte a Proteção de Dados ou o Aviso Legal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
