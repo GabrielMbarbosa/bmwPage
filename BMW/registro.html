@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW/Registro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex flex-row-reverse">
+        <div>
+            <img class="h-screen" src="../img/bmw_background.png" alt="">
+        </div>
+        <div class="text-gray-700 px-24 py-6 h-screen">
+            <div class="flex flex-col justify-center items-center">
+                <div class="me-16">
+                    <p class="text-4xl border border-white w-80 font-light">REGISTRO BMW ID</p>
+                    <p class="font-light mt-2">Já tem o seu BMW ID? Inicie sessão <a class="underline hover:no-underline font-medium" href="./login.html">aqui.</a></p>
+                </div>
+                <div class="flex flex-col mt-5">
+                    <label for="titulo">Saudação*</label>
+                    <input class="w-32 h-12 me-64 border-2 outline-none hover:border-blue-600" type="text" name="titulo" id="titulo">
+                </div>
+                <div class="flex flex-col mt-3">
+                    <label for="Fname">Primeiro Nome*</label>
+                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="text" name="Fname" id="Fname">
+                </div>
+                <div class="flex flex-col mt-3">
+                    <label for="Lname">Sobrenome*</label>
+                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="text" name="Lname" id="Lname">
+                </div>
+                <div class="flex flex-col mt-3">
+                    <label for="email">E-mail*</label>
+                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="email" name="email" id="email">
+                </div>
+                <div class="flex flex-col mt-3">
+                    <label for="pass">Senha*</label>
+                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="password" name="pass" id="pass">
+                </div>
+                <div>
+                    <button class="bg-blue-300 border-2 mt-3 h-12 text-white w-96">Registrar</button>
+                </div>
+                <div class="mt-1 ms-3 text-xs font-light">
+                    <p>Esta página usa hCaptcha. Para mais detalhes, consulte a Proteção de Dados ou o Aviso Legal.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
