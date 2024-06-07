@@ -20,26 +20,30 @@
                 </div>
                 <div class="flex flex-col mt-5">
                     <label for="titulo">Saudação*</label>
-                    <input class="w-32 h-12 me-64 border-2 outline-none hover:border-blue-600" type="text" name="titulo" id="titulo">
+                    <select class="w-32 h-12 me-64 px-1 border-2 outline-none hover:border-blue-600 bg-white" name="titulo" id="titulo">
+                        <option value="Sr">Sr.</option>
+                        <option value="Sra">Sra.</option>
+                    </select>
                 </div>
                 <div class="flex flex-col mt-3">
                     <label for="Fname">Primeiro Nome*</label>
-                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="text" name="Fname" id="Fname">
+                    <input class="w-96 h-12 px-1 border-2 outline-none hover:border-blue-600" type="text" name="Fname" id="Fname">
                 </div>
                 <div class="flex flex-col mt-3">
                     <label for="Lname">Sobrenome*</label>
-                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="text" name="Lname" id="Lname">
+                    <input class="w-96 h-12 px-1 border-2 outline-none hover:border-blue-600" type="text" name="Lname" id="Lname">
                 </div>
                 <div class="flex flex-col mt-3">
                     <label for="email">E-mail*</label>
-                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="email" name="email" id="email">
+                    <input class="w-96 h-12 px-1 border-2 outline-none hover:border-blue-600" type="email" name="email" id="email">
+                    <!-- <p class="font-light text-red-500" id="emailValido">digite um email valido!</p> -->
                 </div>
                 <div class="flex flex-col mt-3">
                     <label for="pass">Senha*</label>
-                    <input class="w-96 h-12 border-2 outline-none hover:border-blue-600" type="password" name="pass" id="pass">
+                    <input class="w-96 h-12 px-1 border-2 outline-none hover:border-blue-600" type="password" name="pass" id="pass">
                 </div>
                 <div>
-                    <button class="bg-blue-300 border-2 mt-3 h-12 text-white w-96">Registrar</button>
+                    <button class="pointer-events-none bg-blue-300 border-2 mt-3 h-12 text-white w-96">Registrar</button>
                 </div>
                 <div class="mt-1 ms-3 text-xs font-light">
                     <p>Esta página usa hCaptcha. Para mais detalhes, consulte a Proteção de Dados ou o Aviso Legal.</p>
